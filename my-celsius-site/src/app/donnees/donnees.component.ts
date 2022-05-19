@@ -22,7 +22,7 @@ import { Component, OnInit } from '@angular/core';
             Mon Profil
           </a>
           <hr class="navbar-divider">
-          <a class="navbar-item">
+          <a class="navbar-item" routerLink="/">
             Déconnexion
           </a>
         </div>

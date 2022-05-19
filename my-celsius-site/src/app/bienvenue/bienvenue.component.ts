@@ -30,7 +30,7 @@ import { Component, OnInit } from '@angular/core';
     </div>
   </div>
 
-  <button class="button is-primary">Connexion</button>
+  <button class="button is-primary" routerLink="/donnees">Connexion</button>
   <button class="button is-ghost">Mot de passe oublié?</button>
   <button class="button is-text" routerLink="/inscription">Créer un compte</button>
 </form>

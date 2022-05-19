@@ -49,7 +49,7 @@ import { Component, OnInit } from '@angular/core';
   </div>
 </div>
 
-  <button class="button is-link">Créer le compte</button>
+  <button class="button is-link" routerLink="/donnees">Créer le compte</button>
 </form>
   `,
   styles: [],
