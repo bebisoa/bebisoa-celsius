@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
   <!-- logo -->
     <div class="navbar-brand">
      <a class="navbar-item">
-      <img src="./assets/O2Celsius.jpg"> 
+      <img src="./assets/O2Celsius.png"> 
      </a>
    </div> 
 
