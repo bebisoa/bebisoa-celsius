@@ -6,12 +6,12 @@ import { InscriptionComponent } from './inscription/inscription.component';
 const routes: Routes = [
   {
     path: '',
-    component: BienvenueComponent,
+    component: BienvenueComponent
   },
   {
     path: 'inscription',
-    component: InscriptionComponent,
-  }
+    component: InscriptionComponent
+  },
 ];
 
 @NgModule({
