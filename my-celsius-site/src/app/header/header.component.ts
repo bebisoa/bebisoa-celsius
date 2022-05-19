@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
   <!-- logo -->
     <div class="navbar-brand">
      <a class="navbar-item">
-      O2 Celsius
+      02 Celsius 🌡️
      </a>
    </div> 
 

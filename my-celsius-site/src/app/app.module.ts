@@ -5,10 +5,10 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { BienvenueComponent } from './bienvenue/bienvenue.component';
-import { PatientsComponent } from './patients/patients.component';
+import { InscriptionComponent } from './inscription/inscription.component';
 
 @NgModule({
-  declarations: [AppComponent, HeaderComponent, FooterComponent, BienvenueComponent, PatientsComponent],
+  declarations: [AppComponent, HeaderComponent, FooterComponent, BienvenueComponent, InscriptionComponent],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
   bootstrap: [AppComponent],
