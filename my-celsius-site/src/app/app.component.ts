@@ -6,10 +6,6 @@ import { Component } from '@angular/core';
     <!-- en-tête--> 
     <app-header></app-header>
 
-    <!-- page d'inscription-->
-    <app-inscription></app-inscription>
-
-    <app-bienvenue></app-bienvenue>
     <!-- router connexion -->
     <router-outlet></router-outlet>
 

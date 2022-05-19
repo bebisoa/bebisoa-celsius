@@ -11,39 +11,41 @@ import { Component, OnInit } from '@angular/core';
      </div>
   </section>
 
-  <form class="box">
+<!-- fiche d'inscription --> 
+
+<form class="box">
   <div class="field">
     <label class="label">Nom</label>
     <div class="control">
-      <input type="text" name="nom" class="input" [(ngModel)]="nom">
+      <input type="text" name="nom" class="input" required>
     </div>
   </div>
 
   <div class="field">
     <label class="label">Prénom</label>
     <div class="control">
-      <input type="text" name="prénom" class="input" [(ngModel)]="prenom">
+      <input type="text" name="prénom" class="input" required>
     </div>
   </div>
 
   <div class="field">
     <label class="label">Email</label>
     <div class="control">
-      <input type="email" name="email" class="input" [(ngModel)]="email">
+      <input type="email" name="email" class="input" required>
     </div>
   </div>
 
 <div class="field">
   <label class="label">Mot de passe</label>
   <div class="control">
-    <input type="password" name="mot de passe" class="input" [(ngModel)]="password">
+    <input type="password" name="mot de passe" class="input" required>
   </div>
 </div>
 
 <div class="field">
   <label class="label">Confirmer votre mot de passe</label>
   <div class="control">
-    <input type="password" name="vérification mot de passe" class="input" [(ngModel)]="verification">
+    <input type="password" name="vérification mot de passe" class="input" required>
   </div>
 </div>
 
@@ -53,15 +55,7 @@ import { Component, OnInit } from '@angular/core';
   styles: [],
 })
 export class InscriptionComponent implements OnInit {
-  nom: string;
-  prenom: string;
-  email: string;
-  password: string;
-  verification: string;
-
   constructor() {}
 
   ngOnInit(): void {}
-
-  submitForm() {}
 }
