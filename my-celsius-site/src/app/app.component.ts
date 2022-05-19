@@ -6,6 +6,7 @@ import { Component } from '@angular/core';
     <!-- en-tête--> 
     <app-header></app-header>
 
+    <app-bienvenue></app-bienvenue>
     <!-- router connexion -->
     <router-outlet></router-outlet>
 
