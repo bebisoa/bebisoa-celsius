@@ -7,7 +7,6 @@ import { FooterComponent } from './footer/footer.component';
 import { BienvenueComponent } from './bienvenue/bienvenue.component';
 import { InscriptionComponent } from './inscription/inscription.component';
 import { DonneesComponent } from './donnees/donnees.component';
-import { DiagrammeComponent } from './diagramme/diagramme.component';
 
 @NgModule({
   declarations: [
@@ -16,8 +15,7 @@ import { DiagrammeComponent } from './diagramme/diagramme.component';
     FooterComponent,
     BienvenueComponent,
     InscriptionComponent,
-    DonneesComponent,
-    DiagrammeComponent,
+    DonneesComponent
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],

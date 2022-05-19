@@ -30,8 +30,6 @@ import { Component, OnInit } from '@angular/core';
     </div>
   </div>
 </nav>
-
-<app-diagramme></app-diagramme>
   `,
   styles: [],
 })
