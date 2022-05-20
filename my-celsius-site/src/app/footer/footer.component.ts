@@ -8,7 +8,8 @@ import { Component, OnInit } from '@angular/core';
     <p>
       <strong>02 Celsius</strong> créé par IS PROMO 2023. 
     </p>
-  </div>
+
+</div>
 </footer>
   `,
   styles: [],

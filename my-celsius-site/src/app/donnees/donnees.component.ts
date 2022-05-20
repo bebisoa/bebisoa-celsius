@@ -30,14 +30,6 @@ import { Component, OnInit } from '@angular/core';
     </div>
   </div>
 </nav>
-
-<div class="graphs-container" data-title="">
-    <div class="data-container is-vertical-graph|columns">
-        <div data-title="" data-value="10"></div>
-        <div data-title="" data-value="50"></div>
-        <div data-title="" data-value="100"></div>
-    </div>
-</div>
   `,
   styles: [],
 })
