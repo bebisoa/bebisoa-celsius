@@ -19,6 +19,7 @@
     "@angular/router": "~13.3.0",
     "bootstrap": "^5.1.3",
     "bulma": "^0.9.4",
+    "bulma-graphs": "^0.2.1",
     "rxjs": "~7.5.0",
     "tslib": "^2.3.0",
     "vue-bulma-chartjs": "^1.0.5",

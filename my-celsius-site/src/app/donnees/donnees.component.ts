@@ -31,40 +31,13 @@ import { Component, OnInit } from '@angular/core';
   </div>
 </nav>
 
-<template>
-  <chart :type="'pie'" :data="data" :options="options"></chart>
-</template>
-
-<script>
-import Chart from 'vue-bulma-chartjs'
-
-export default {
-  components: {
-    Chart
-  },
-
-  data () {
-    return {
-      data: {
-        labels: ['Sleeping', 'Designing', 'Coding', 'Cycling'],
-          datasets: [{
-          data: [20, 40, 5, 35],
-          backgroundColor: [
-            '#1fc8db',
-            '#fce473',
-            '#42afe3',
-            '#ed6c63',
-            '#97cd76'
-          ]
-        }]
-      },
-      options: {
-        segmentShowStroke: false
-      }
-    }
-  }
-}
-</script>
+<div class="graphs-container" data-title="">
+    <div class="data-container is-vertical-graph|columns">
+        <div data-title="" data-value="10"></div>
+        <div data-title="" data-value="50"></div>
+        <div data-title="" data-value="100"></div>
+    </div>
+</div>
   `,
   styles: [],
 })
